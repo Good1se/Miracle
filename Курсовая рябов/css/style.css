@@ -1,0 +1,44 @@
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.header {
+    background-color: rgb(99, 112, 112);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 48px;
+}
+
+.HeaderName {
+    font-size: 48px;
+}
+
+.HeaderLogo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+#btn{
+    position:absolute;
+    top: 50vh;
+    left: 50vw;
+    z-index:1;
+   }
+   #content_window{
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    z-index:10;
+    background:lightgrey;
+    display: none;
+}    
